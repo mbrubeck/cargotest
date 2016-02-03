@@ -1,3 +1,5 @@
 fn main() {
-    println!("cargo:rerun-if-changed=build.rs");
+    if std::env::var("LIBCLANG_PATH").is_ok() {
+        panic!()
+    }
 }
