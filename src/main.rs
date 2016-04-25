@@ -1,3 +1,4 @@
+extern crate log;
 extern crate a;
 
 fn main() {

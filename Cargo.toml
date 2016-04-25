@@ -3,5 +3,5 @@ name = "cargotest"
 version = "0.1.0"
 authors = ["Matt Brubeck <mbrubeck@limpet.net>"]
 
-[dependencies.a]
-path = "a"
+[dependencies]
+#a = { path = "a" }

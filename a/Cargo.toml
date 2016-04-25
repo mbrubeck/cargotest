@@ -4,4 +4,9 @@ version = "0.1.0"
 authors = ["Matt Brubeck <mbrubeck@limpet.net>"]
 build = "build.rs"
 
+[lib]
+crate_type = ["dylib"]
+
 [dependencies]
+log = "*"
+
